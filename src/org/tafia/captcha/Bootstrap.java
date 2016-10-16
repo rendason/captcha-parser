@@ -15,6 +15,13 @@ import org.tafia.captcha.CaptchaParse.CaptchaConfig;
  */
 public class Bootstrap {
 
+	/**
+	 * 程序入口
+	 *
+	 * 在参数集source=partition:\pathname border=0 threshold=-1 noise=-1 block=-1
+	 * chars=0 chinese=false italic=false isometry=false semantic=false save=false type=filetype中选择一个或多个输入
+	 * @param args 命令行参数
+	 */
 	public static void main(String[] args) {
 		System.out.println(instruction());
 		Scanner scan = new Scanner(System.in);
